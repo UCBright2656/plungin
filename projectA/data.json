@@ -1,0 +1,102 @@
+{
+  "plugin.dependencies": "",
+  "plugin.load-before": "",
+  "plugin.version": "1.0",
+  "debug-build-mode": false,
+  "open-tab": 0,
+  "plugin-components": [
+    {
+      "children": [{
+        "=": "org.bukkit.Bukkit#broadcastMessage(java.lang.String)",
+        "parameters": [{
+          "=": "expr-string",
+          "parameters": ["Hellow World!!"]
+        }]
+      }],
+      "=": "comp-command",
+      "parameters": [
+        "hellow",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "=": "comp-command",
+      "parameters": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "=": "comp-command",
+      "parameters": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "=": "comp-gui-click-handler",
+      "parameters": [""]
+    },
+    {
+      "=": "comp-create-gui",
+      "parameters": [
+        "testgui",
+        {
+          "=": "expr-string",
+          "parameters": ["テスト用"]
+        },
+        {
+          "=": "expr-number",
+          "parameters": ["20"]
+        },
+        "create once"
+      ]
+    },
+    {
+      "children": [{
+        "=": "stat-open-gui",
+        "parameters": [
+          {
+            "=": "expr-string",
+            "parameters": ["testgui"]
+          },
+          {"=": "expr-command-sender"}
+        ]
+      }],
+      "=": "comp-command",
+      "parameters": [
+        "opengui",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "plugin.soft-dependencies": "",
+  "plugin.name": "UCBtest02",
+  "plugin.prefix": "",
+  "current-plugin-component": 0,
+  "plugin.author": "UCBright",
+  "plugin.description": "",
+  "plugin.permissions": "",
+  "open-plugin-components": [
+    4,
+    5,
+    0
+  ],
+  "plugin.website": ""
+}

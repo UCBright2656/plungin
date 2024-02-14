@@ -1,0 +1,9 @@
+name: "UCBtest02"
+version: "1.0"
+main: "vb.$ucbtest02.PluginMain"
+api-version: 1.13
+authors: [UCBright]
+commands:
+  hellow:
+  opengui:
+permissions:
